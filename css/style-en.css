@@ -1,0 +1,101 @@
+ body {
+     direction: ltr;
+     text-align: left;
+ }
+ 
+ .header #cssmenu ul li {
+     float: left;
+ }
+ 
+ .header #cssmenu ul li a {
+     text-transform: capitalize;
+     border-left: 0px;
+     margin-left: 0px;
+     padding-left: 0px;
+     border-right: 1px solid #000;
+     margin-right: 32px;
+     padding-right: 32px;
+ }
+ 
+ @media (max-width: 991px) {
+     .header #cssmenu ul li a {
+         border: 0px;
+         margin: 0px;
+         padding: 8px 16px;
+     }
+ }
+ 
+ .bottom {
+     font-size: 16px;
+     text-transform: capitalize;
+     font-weight: normal !important;
+ }
+ 
+ .header #cssmenu ul li a:after {
+     content: "";
+     left: auto;
+     right: 0px;
+ }
+ 
+ .it-photo .content .minheader p span {
+     margin: 0px;
+     margin-left: 4px;
+ }
+ 
+ .footer .item-fo .title {
+     font-weight: 600;
+ }
+ 
+ .footer ul li a {
+     font-weight: 500;
+ }
+ 
+ .copyright {
+     direction: rtl;
+ }
+ 
+ .copyright p {
+     font-size: 18px;
+ }
+ 
+ .contact_form h1,
+ .contact_form p {
+     text-align: left;
+ }
+ 
+ .contact_form button {
+     font-size: 18px;
+ }
+ 
+ @media (max-width: 991px) {
+     .language {
+         border-right: 1px solid #5f5f5f;
+         padding-right: 12px;
+     }
+ }
+ 
+ @media (max-width: 991px) {
+     .header #cssmenu {
+         right: auto;
+         left: 60px;
+     }
+     .header #cssmenu #menu-button {
+         float: left;
+     }
+     .header #cssmenu #menu-button:after {
+         right: auto;
+         left: 0px;
+     }
+     .header #cssmenu #menu-button:before {
+         right: auto;
+         left: 0px;
+     }
+     #cssmenu #menu-button:after {
+         right: auto;
+         left: 0px;
+     }
+     #cssmenu #menu-button:before {
+         right: auto;
+         left: 0px;
+     }
+ }
